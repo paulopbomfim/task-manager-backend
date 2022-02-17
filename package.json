@@ -1,0 +1,21 @@
+{
+  "name": "task-manager",
+  "version": "0.0.1",
+  "main": "src/api/server.js",
+  "scripts": {
+    "start": "node main",
+    "dev": "nodemon main",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
