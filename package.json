@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "src/api/server.js",
   "scripts": {
-    "start": "node main",
+    "start": "node src/api/server.js",
     "dev": "nodemon main",
     "test": "jest --watchAll"
   },
