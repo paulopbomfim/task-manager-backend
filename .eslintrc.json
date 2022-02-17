@@ -5,12 +5,14 @@
         "node": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:jest/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
+    "plugins": ["jest"],
     "rules": {
-        "no-console": [2, { "allow": ["log"] }]
+        "no-console": [2, { "allow": ["log", "error"] }]
     }
 }
